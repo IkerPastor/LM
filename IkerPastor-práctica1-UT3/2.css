@@ -1,0 +1,117 @@
+    header {
+        height: 15vh;
+        background-color: black;
+    }
+    @media (max-width:320px){
+ 
+      }
+    
+    img {
+        display: flex;
+        margin: auto;
+        width: 7rem;
+        border-radius: 200px;
+        border: 1px solid #ddd;
+    }
+    
+    body {
+        margin: 0;
+    }
+    
+    main {
+        min-height: 100vh;
+        max-width: 100vw;
+        background-color: gray;
+    }
+    
+    nav {
+        height: 15vh;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    
+    li {
+        font-size: 30px;
+        border-style: solid;
+        border-color: lightsalmon;
+        margin: 1px;
+        background-color: lightsalmon;
+        float: right;
+        padding: 0 10px;
+    }
+    
+    form {
+        padding: 25px;
+        background-color: lightsalmon;
+        border-radius: 0rem 1rem 0rem 0rem;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 2px 2px 5px black;
+    }
+    
+    label {
+        padding: 5px;
+    }
+    
+    article {
+        min-height: 60vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+    }
+    
+    form input[type="submit"] {
+        margin: 10px;
+        font-family: 'M PLUS Rounded 1c', sans-serif;
+        ;
+        border-radius: 5px;
+        background-color: lightgreen;
+        font-weight: 900;
+    }
+    
+    footer {
+        display: flex;
+        flex-direction: row-reverse;
+        height: 15vh;
+        background-color: black;
+        color: white
+    }
+    
+    p {
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+    }
+    
+    .tooltip {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .tooltip .tooltiptext {
+        border-radius: 56% 44% 72% 28% / 30% 49% 51% 70%;
+        visibility: hidden;
+        width: 120px;
+        background-color: black;
+        color: #fff;
+        text-align: center;
+        padding: 5px 0;
+        position: absolute;
+        z-index: 1;
+        bottom: -50%;
+        left: 50%;
+        margin-left: -60px;
+        opacity: 0;
+        transition: opacity 3s;
+    }
+    
+    .tooltip:hover .tooltiptext {
+        visibility: visible;
+        opacity: 1;
+    }

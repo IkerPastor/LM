@@ -50,6 +50,17 @@ ol > li
     border-style:solid;  
     background-color:#56BAF0;
 }
+
+ol {
+    margin: 0; /*Las listas tienen por defecto un margen. Se lo quitamos*/
+}
+
+ol > li:last-child
+{
+    margin-bottom: 0; /*Al último li le quito el margen que tú has puesto (Sugerencia hacer en ol un display flex y space-around)*/
+}
+
+
 h1
 {
     display: flex;
